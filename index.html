@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Pradžia</a></li>
+                <li><a href="#about">Apie Mus</a></li>
+                <li><a href="#services">Paslaugos</a></li>
+                <li><a href="#contact">Susisiekite</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Sveiki Atvykę į Jūsų Fitneso Kelionę</h1>
+            <p>Pasiekite savo tikslus su mūsų asmeninėmis treniruočių programomis.</p>
+            <button id="cta-button">Pradėkite Dabar</button>
+        </div>
+    </section>
+
+    <section id="about" class="deze">
+        <h2>Apie Mus</h2>
+        <p>Mes esame pasiryžę padėti jums pasiekti savo fitneso tikslus su individualizuotais treniruočių planais ir mitybos patarimais.</p>
+    </section>
+
+    <section id="services" class="deze">
+        <h2>Mūsų Paslaugos</h2>
+        <ul>
+            <li>Asmeninės treniruotės</li>
+            <li>Grupinės Treniruotės</li>
+            <li>Mitybos Planai</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="deze">
+        <h2>Susisiekite</h2>
+        <form id="contact-form">
+            <label for="name">Vardas:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">El. paštas:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Žinutė:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Siųsti Žinutę</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness World. Visos teisės saugomos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
